@@ -1,0 +1,23 @@
+h1 {
+    color: blueviolet;
+}
+/* Tag slector */
+h2 {
+    color: rgb(213, 205, 255);
+}
+p{
+    color:blue;
+}
+
+/* Id selektor */
+#green-heading {
+    color: green;
+}
+
+#bold-text {
+    font-weight: bold;
+}
+/* Class selektor */
+.red {
+    color: red;
+}

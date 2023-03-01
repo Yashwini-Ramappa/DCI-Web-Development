@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+.mainnav {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: aquamarine;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+.mainnav li {
+    display: inline-block;
+}
+
+.mainnav li a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 8px;
+    border-radius: 2mm;
+}
+.mainnav li a:hover {
+    color: darkorchid;
+    background-color: aliceblue;
+    padding: 10px 10px;
+}
+
+.maintable, th, td {
+    border: 2px solid black;
+    color: brown;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px;
+}
+
+th {
+    background-color: aquamarine;
+}

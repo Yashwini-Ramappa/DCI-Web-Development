@@ -1,0 +1,4 @@
+I took Gael live coding on the last day as reference. 
+My html looks similar to Gael live coding.
+I played around a lot with css formating. Adding format, checking result, repeating.
+I know my css is not clean because I played around and added a lot of commands

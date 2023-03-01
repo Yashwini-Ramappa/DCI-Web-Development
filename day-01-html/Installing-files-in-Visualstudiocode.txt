@@ -1,0 +1,10 @@
+Datei und Odner namen / Files and Folders names
+- Nur kleinschreibung / Only small letters
+- Keine sonder zeichen / No special character (ü ä ö) or similar
+- Keine leerzeichen / No white space
+- Bindestrich oder underscore kann genutzt werden. / Minus or underscore can be used.
+
+ 
+
+
+https://learntheweb.courses/topics/naming-paths-cheat-sheet/

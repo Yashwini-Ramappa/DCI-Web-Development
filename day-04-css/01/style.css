@@ -1,0 +1,35 @@
+/* group selector */
+h1,
+h2,
+h3 {
+    color: blue;
+}
+
+/* combinator */
+div section p {
+    color: brown;
+}
+
+/* child combinator */
+main > section > p {
+    color: aqua;
+}
+
+/* adjacent sibling combinator */
+h6 + p {
+    color: orange;
+}
+
+/* specificity */
+.testclass {
+    color: palevioletred;
+}
+h1.testclass {
+    color: orange;
+}
+
+/* inheritance */
+
+main {
+    font-family: sans-serif;
+}

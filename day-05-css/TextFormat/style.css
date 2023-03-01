@@ -1,0 +1,28 @@
+/* body {
+    color: aqua;
+    background-color: black;
+} */
+.tf {
+    border: 5px solid red;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: aqua;
+    /* text laign */
+    text-align: center;
+    /* text text-decoration:; */
+    text-decoration: underline;
+    /* text transform */
+    text-transform: capitalize;
+    text-transform: uppercase;
+    /* text spacing */
+    letter-spacing: 0px;
+    word-spacing: 5px;
+
+    /* text shadow */
+    /* text-shadow: 2px 2px 2px red; */
+
+    /* https://html-css-js.com/css/generator/text-shadow/ */
+    /* https://www.ventoy.net/en/index.html */
+    /* https://getcssscan.com/css-box-shadow-examples */
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

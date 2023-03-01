@@ -1,0 +1,6 @@
+Wikipedia website -- olny HTML
+HARIBO website -- HTML and CSS
+Amazon website -- HTML and CSS and JAVA script
+
+It is not possible to create a website just with CSS. We always need HTML. CSS is just an extension to HTML.
+

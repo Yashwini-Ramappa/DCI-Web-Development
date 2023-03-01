@@ -1,0 +1,144 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.main-nav {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: lightgreen;
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 2mm;
+}
+.main-nav li a:hover {
+    color: green;
+    background-color: aliceblue;
+    padding: 15px 30px;
+    border: 3px solid black;
+}
+
+.main-header {
+    min-height: 85vh;
+    background-image: url("./images/bg_img.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.main-header h2 {
+    font-weight: bold;
+    color: green;
+    font-size: 40px;
+    border: 5px solid green;
+    width: 200px;
+    background-color: azure;
+    border-radius: 6mm;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.main-header h3 {
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+    border: 5px solid green;
+    width: 200px;
+    background-color: azure;
+    border-radius: 6mm;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.main-project {
+    border: 3px solid red;
+    min-height: 95vh;
+}
+
+.about {
+    border: 3px solid blue;
+    min-height: 80vh;
+}
+
+.about-text {
+    border: 3px solid pink;
+    height: 600px;
+    width: 50%;
+}
+
+.main-recipies {
+    /* border: 3px solid red; */
+    min-height: 100vh;
+}
+
+.main-recipies h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+
+.recipies-container {
+    border: 3px solid blue;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card01 {
+    border: 3px solid green;
+    width: 400px;
+    height: 550px;
+    margin: 20px;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.recipie01-top {
+    /* border: 3px solid red; */
+    height: 50%;
+    background-image: url("./images/recipie01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 20px;
+    background-color: lightgreen;
+    margin: 5px;
+}
+
+.recipie01-bottom {
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipie01-video {
+    padding: 5px;
+    margin: 5px;
+    background-color: lightgreen;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
