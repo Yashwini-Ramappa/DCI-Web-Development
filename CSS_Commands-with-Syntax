@@ -1,0 +1,1024 @@
+/*1)color: sets the color of text.
+Syntax: color: color-value;
+
+Example: color: red;
+
+2) background-color: sets the background color of an element.
+Syntax: background-color: color-value;
+
+Example: background-color: yellow;
+
+3) background-image: sets the background image of an element.
+Syntax: background-image: url(image-url);
+
+Example: background-image: url('https://example.com/image.jpg');
+
+4) background-repeat: sets how a background image will be repeated.
+Syntax: background-repeat: repeat|repeat-x|repeat-y|no-repeat;
+
+Example: background-repeat: repeat;
+
+5) background-position: sets the position of a background image.
+Syntax: background-position: x-position y-position;
+
+Example: background-position: center top;
+
+6)background-size: sets the size of a background image.
+Syntax: background-size: auto|cover|contain|length|percentage;
+
+Example: background-size: cover;
+
+7) border: sets the border around an element.
+Syntax: border: border-width border-style border-color;
+
+Example: border: 1px solid black;
+
+8)border-width: sets the width of the border.
+Syntax: border-width: value;
+
+Example: border-width: 1px;
+
+9)border-style: sets the style of the border.
+Syntax: border-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset;
+
+Example: border-style: dashed;
+
+10) border-color: sets the color of the border.
+Syntax: border-color: color-value;
+
+Example: border-color: blue;
+
+11) border-radius: sets the rounded corners of an element.
+Syntax: border-radius: value;
+
+Example: border-radius: 5px;
+
+12) box-shadow: sets a shadow effect around an element.
+Syntax: box-shadow: horizontal-offset vertical-offset blur spread color;
+
+Example: box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+
+13) text-shadow: sets a shadow effect around text.
+Syntax: text-shadow: horizontal-offset vertical-offset blur color;
+
+Example: text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+14) font-family: sets the font family of text.
+Syntax: font-family: family-name|generic-family;
+
+Example: font-family: Arial, sans-serif;
+
+15) font-size: sets the font size of text.
+Syntax: font-size: size;
+
+Example: font-size: 16px;
+
+16) font-weight: sets the font weight of text.
+Syntax: font-weight: normal|bold|bolder|lighter|number;
+
+Example: font-weight: bold;
+
+17) font-style: sets the font style of text.
+Syntax: font-style: normal|italic|oblique;
+
+Example: font-style: italic;
+
+18) text-decoration: sets the text decoration of text.
+Syntax: text-decoration: none|underline|overline|line-through|initial|inherit;
+
+Example: text-decoration: underline;
+
+19) text-transform: sets the text transform of text.
+Syntax: `text-transform: none|capitalize|uppercase|lowercase|initial|inherit;`
+
+Example: text-transform: uppercase;
+
+20) text-align: sets the horizontal alignment of text.
+Syntax: text-align: left|center|right|justify;
+
+Example: text-align: center;
+
+21) line-height: sets the line height of text.
+Syntax: line-height: value;
+
+Example: line-height: 1.5;
+
+22) letter-spacing: sets the spacing between characters.
+Syntax: letter-spacing: value;
+
+Example: letter-spacing: 2px;
+
+23) word-spacing: sets the spacing between words.
+Syntax: word-spacing: value;
+
+Example: word-spacing: 5px;
+
+24) text-indent: sets the indentation of the first line of text.
+Syntax: text-indent: value;
+
+Example: text-indent: 20px;
+
+25) text-overflow: sets how text will overflow if it is too long.
+Syntax: text-overflow: clip|ellipsis;
+
+Example: text-overflow: ellipsis;
+
+26) text-shadow: sets a shadow effect around text.
+Syntax: text-shadow: h-shadow v-shadow blur color;
+
+Example: text-shadow: 1px 1px 2px black;
+
+27) opacity: sets the opacity of an element.
+Syntax: opacity: value;
+
+Example: opacity: 0.5;
+
+28) visibility: sets the visibility of an element.
+Syntax: visibility: visible|hidden|collapse;
+
+Example: visibility: hidden;
+
+29) display: sets how an element is displayed.
+Syntax: display: inline|block|inline-block|none;
+
+Example: display: block;
+
+30) position: sets the position of an element.
+Syntax: position: static|relative|absolute|fixed;
+
+Example: position: absolute;
+
+31) top: sets the distance between the top edge of an element and the top edge of its containing element.
+Syntax: top: value;
+
+Example: top: 10px;
+
+32) right: sets the distance between the right edge of an element and the right edge of its containing element.
+Syntax: right: value;
+
+Example: right: 10px;
+
+33) bottom: sets the distance between the bottom edge of an element and the bottom edge of its containing element.
+Syntax: bottom: value;
+
+Example: bottom: 10px;
+
+34) left: sets the distance between the left edge of an element and the left edge of its containing element.
+Syntax: left: value;
+
+Example: left: 10px;
+
+35) z-index: sets the stack order of an element.
+Syntax: z-index: value;
+
+Example: z-index: 2;
+
+36) float: sets the horizontal alignment of an element.
+Syntax: float: left|right|none;
+
+Example: float: left;
+
+37) clear: sets how an element clears floated elements.
+Syntax: clear: left|right|both|none;
+
+Example: clear: both;
+
+38) margin: sets the margin around an element.
+Syntax: margin: value;
+
+Example: margin: 10px;
+
+39) margin-top: sets the margin above an element.
+Syntax: margin-top: value;
+
+Example: margin-top: 10px;
+
+40) margin-right: sets the margin to the right of an element.
+Syntax: margin-right: value;
+
+Example: margin-right: 10px;
+
+41) margin-bottom: sets the margin below an element.
+Syntax: margin-bottom: value;
+
+Example: margin-bottom: 10px;
+
+42) margin-left: sets the margin to the left of an element.
+Syntax: margin-left: value;
+
+Example: margin-left: 10px;
+
+43) padding: sets the padding around an element.
+Syntax: padding: value;
+
+Example: padding: 10px;
+
+44) padding-top: sets the padding above an element.
+Syntax: padding-top: value;
+
+Example: padding-top: 10px;
+
+45) padding-right: sets the padding to the right of an element.
+Syntax: padding-right: value;
+
+Example: padding-right: 10px;
+
+46) padding-bottom: sets the padding below an element.
+Syntax: padding-bottom: value;
+
+Example: padding-bottom: 10px;
+
+47) padding-left: sets the padding to the left of an element.
+Syntax: padding-left: value;
+
+Example: padding-left: 10px;
+
+48) border: sets the border around an element.
+Syntax: border: value;
+
+Example: border: 1px solid black;
+
+49) border-width: sets the width of the border around an element.
+Syntax: border-width: value;
+
+Example: border-width: 1px;
+
+50) border-style: sets the style of the border around an element.
+Syntax: border-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset;
+
+Example: border-style: solid;
+
+51) border-color: sets the color of the border around an element.
+Syntax: border-color: value;
+
+Example: border-color: black;
+
+52) border-top: sets the border above an element.
+Syntax: border-top: value;
+
+Example: border-top: 1px solid black;
+
+53) border-top-width: sets the width of the border above an element.
+Syntax: border-top-width: value;
+
+Example: border-top-width: 1px;
+
+54) border-top-style: sets the style of the border above an element.
+Syntax: border-top-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset;
+
+Example: border-top-style: solid;
+
+55) border-top-color: sets the color of the border above an element.
+Syntax: border-top-color: value;
+
+Example: border-top-color: black;
+
+56) border-right: sets the border to the right of an element.
+Syntax: border-right: value;
+
+Example: border-right: 1px solid black;
+
+57) border-right-width: sets the width of the border to the right of an element.
+Syntax: border-right-width: value;
+
+Example: border-right-width: 1px;
+
+58) border-right-style: sets the style of the border to the right of an element.
+Syntax: border-right-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset;
+
+Example: border-right-style: solid;
+
+59) border-right-color: sets the color of the border to the right of an element.
+Syntax: border-right-color: value;
+
+Example: border-right-color: black;
+
+60) border-bottom: sets the border below an element.
+Syntax: border-bottom: value;
+
+Example: border-bottom: 1px solid black;
+
+61) border-bottom-width: sets the width of the border below an element.
+Syntax: border-bottom-width: value;
+
+Example: border-bottom-width: 1px;
+
+62) border-bottom-style: sets the style of the border below an element.
+Syntax: border-bottom-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset;
+
+Example: border-bottom-style: solid;
+
+63) border-bottom-color: sets the color of the border below an element.
+Syntax: border-bottom-color: value;
+
+Example: border-bottom-color: black;
+
+64) border-left: sets the border to the left of an element.
+Syntax: border-left: value;
+
+Example: border-left: 1px solid black;
+
+65) border-left-width: sets the width of the border to the left of an element.
+Syntax: border-left-width: value;
+
+Example: border-left-width: 1px;
+
+66) border-left-style: sets the style of the border to the left of an element.
+Syntax: border-left-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset;
+
+Example: border-left-style: solid;
+
+67) border-left-color: sets the color of the border to the left of an element.
+Syntax: border-left-color: value;
+
+Example: border-left-color: black;
+
+68) border-radius: sets the border radius of an element.
+Syntax: border-radius: value;
+
+Example: border-radius: 10px;
+
+69) border-top-left-radius: sets the border radius to the top left of an element.
+Syntax: border-top-left-radius: value;
+
+Example: border-top-left-radius: 10px;
+
+70) border-top-right-radius: sets the border radius to the top right of an element.
+Syntax: border-top-right-radius: value;
+
+Example: border-top-right-radius: 10px;
+
+71) border-bottom-right-radius: sets the border radius to the bottom right of an element.
+Syntax: border-bottom-right-radius: value;
+
+Example: border-bottom-right-radius: 10px;
+
+72) border-bottom-left-radius: sets the border radius to the bottom left of an element.
+Syntax: border-bottom-left-radius: value;
+
+Example: border-bottom-left-radius: 10px;
+
+73) background: sets the background of an element.
+Syntax: background: value;
+
+Example: background: red;
+
+74) background-color: sets the background color of an element.
+Syntax: background-color: value;
+
+Example: background-color: red;
+
+75) background-image: sets the background image of an element.
+Syntax: background-image: url(value);
+
+Example: background-image: url('image.png');
+
+76) background-repeat: sets how the background image should repeat.
+Syntax: background-repeat: repeat|repeat-x|repeat-y|no-repeat;
+
+Example: background-repeat: repeat;
+
+77) background-position: sets the position of the background image.
+Syntax: background-position: value;
+
+Example: background-position: center;
+
+78) background-size: sets the size of the background image.
+Syntax: background-size: value;
+
+Example: background-size: cover;
+
+79) box-sizing: sets the sizing method of an element.
+Syntax: box-sizing: content-box|border-box;
+
+Example: box-sizing: border-box;
+
+80) opacity: sets the opacity of an element.
+Syntax: opacity: value;
+
+Example: opacity: 0.5;
+
+81) visibility: sets the visibility of an element.
+Syntax: visibility: visible|hidden|collapse;
+
+Example: visibility: hidden;
+
+82) cursor: sets the type of cursor to be displayed when hovering over an element.
+Syntax: cursor: value;
+
+Example: cursor: pointer;
+
+83) z-index: sets the stacking order of an element.
+Syntax: z-index: value;
+
+Example: z-index: 1;
+
+84) position: sets the positioning method of an element.
+Syntax: position: static|relative|absolute|fixed|sticky;
+
+Example: position: absolute;
+
+85) top: sets the distance from the top edge of the containing element to the top edge of the positioned element.
+Syntax: top: value;
+
+Example: top: 10px;
+
+86) right: sets the distance from the right edge of the containing element to the right edge of the positioned element.
+Syntax: right: value;
+
+Example: right: 10px;
+
+87) bottom: sets the distance from the bottom edge of the containing element to the bottom edge of the positioned element.
+Syntax: bottom: value;
+
+Example: bottom: 10px;
+
+88) left: sets the distance from the left edge of the containing element to the left edge of the positioned element.
+Syntax: left: value;
+
+Example: left: 10px;
+
+89) float: sets the horizontal alignment of an element.
+Syntax: float: left|right|none;
+
+Example: float: left;
+
+90) clear: sets whether an element should be moved below floating elements.
+Syntax: clear: left|right|both|none;
+
+Example: clear: both;
+
+91) display: sets the display behavior of an element.
+Syntax: display: none|block|inline|inline-block|flex|grid|table;
+
+Example: display: block;
+
+92) flex-direction: sets the direction of the flexible items.
+Syntax: flex-direction: row|row-reverse|column|column-reverse;
+
+Example: flex-direction: row;
+
+93) justify-content: aligns the flexible items along the main axis.
+Syntax: justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly;
+
+Example: justify-content: center;
+
+94) align-items: aligns the flexible items along the cross axis.
+Syntax: align-items: flex-start|flex-end|center|baseline|stretch;
+
+Example: align-items: center;
+
+95) flex-wrap: sets whether the flexible items should wrap or not.
+Syntax: flex-wrap: nowrap|wrap|wrap-reverse;
+
+Example: flex-wrap: wrap;
+
+96) align-content: sets the distribution of space between and around the flexible items.
+Syntax: align-content: flex-start|flex-end|center|space-between|space-around|stretch;
+
+Example: align-content: center;
+
+97) flex-grow: sets the flex grow factor of a flexible item.
+Syntax: flex-grow: value;
+
+Example: flex-grow: 1;
+
+98) flex-shrink: sets the flex shrink factor of a flexible item.
+Syntax: flex-shrink: value;
+
+Example: flex-shrink: 1;
+
+99) flex-basis: sets the initial main size of a flexible item.
+Syntax: flex-basis: value;
+
+Example: flex-basis: 50%;
+
+100) flex: shorthand property for flex-grow, flex-shrink, and flex-basis.
+Syntax: flex: value;
+
+Example: flex: 1 1 50%;
+
+101) grid-template-columns: defines the columns of a grid container.
+Syntax: grid-template-columns: value;
+
+Example: grid-template-columns: 1fr 2fr;
+
+102) grid-template-rows: defines the rows of a grid container.
+Syntax: grid-template-rows: value;
+
+Example: grid-template-rows: 100px 200px;
+
+103) grid-template-areas: specifies the grid areas.
+Syntax: grid-template-areas: value;
+
+Example: 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100px 200px;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+
+104) grid-area: assigns a grid area to an item.
+Syntax: grid-area: value;
+
+Example:
+.item {
+  grid-area: main;
+}
+
+
+105) grid-row-start: specifies the start position of a grid item.
+Syntax: grid-row-start: value;
+
+Example: grid-row-start: 1;
+
+106) grid-row-end: specifies the end position of a grid item.
+Syntax: grid-row-end: value;
+
+Example: grid-row-end: 3;
+
+107) grid-column-start: specifies the start position of a grid item.
+Syntax: grid-column-start: value;
+
+Example: grid-column-start: 2;
+
+108) grid-column-end: specifies the end position of a grid item.
+Syntax: grid-column-end: value;
+
+Example: grid-column-end: 4;
+
+109) grid-row: shorthand property for grid-row-start and grid-row-end.
+Syntax: grid-row: start / end;
+
+Example: grid-row: 1 / 3;
+
+110) grid-column: shorthand property for grid-column-start and grid-column-end.
+Syntax: grid-column: start / end;
+
+Example: grid-column: 2 / 4;
+
+111) grid-area: shorthand property for grid-row-start, grid-column-start, grid-row-end, and grid-column-end.
+Syntax: grid-area: row-start / column-start / row-end / column-end;
+
+Example: grid-area: 1 / 2 / 3 / 4;
+
+112) gap: sets the gap between grid items.
+Syntax: gap: value;
+
+Example: gap: 10px;
+
+113) justify-items: aligns the grid items along the inline (row) axis.
+Syntax: justify-items: start|end|center|stretch;
+
+Example: justify-items: center;
+
+114) align-items: aligns the grid items along the block (column) axis.
+Syntax: align-items: start|end|center|stretch;
+
+Example: align-items: center;
+
+115) place-items: shorthand property for justify-items and align-items.
+Syntax: place-items: value;
+
+Example: place-items: center center;
+
+116) justify-self: aligns a single grid item along the inline (row) axis.
+Syntax: justify-self: start|end|center|stretch;
+
+Example: justify-self: center;
+
+117) align-self: aligns a single grid item along the block (column) axis.
+Syntax: align-self: start|end|center|stretch;
+
+Example: align-self: center;
+
+118) place-self: shorthand property for justify-self and align-self.
+Syntax: place-self: value;
+
+Example: place-self: center center;
+
+119) transition: specifies a transition effect for a property.
+Syntax: transition: property duration timing-function delay;
+
+Example: transition: background-color 1s ease-in-out 0.5s;
+
+120) transform: applies a 2D or 3D transformation to an element.
+Syntax: transform: value;
+
+Example: transform: rotate(45deg) scale(1.5) translate(50px, 50px);
+
+121) transform-origin: specifies the origin of a transformation.
+Syntax: transform-origin: value;
+
+Example: transform-origin: center center;
+
+122) animation: specifies an animation effect for an element.
+Syntax: animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
+Example: animation: my-animation 2s ease-in-out 0s infinite alternate none running;
+
+123) @keyframes: specifies the animation keyframes.
+Syntax:
+@keyframes name {
+  0% { property: value; }
+  50% { property: value; }
+  100% { property: value; }
+}
+
+Example:
+@keyframes my-animation {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
+
+
+124) filter: applies a visual effect to an element.
+Syntax: filter: value;
+
+Example: filter: blur(5px) brightness(50%) contrast(200%);
+
+125) backdrop-filter: applies a visual effect to the area behind an element.
+Syntax: backdrop-filter: value;
+
+Example: backdrop-filter: blur(5px) brightness(50%) contrast(200%);
+
+126) clip-path: clips an element to a specified shape.
+Syntax: clip-path: value;
+
+Example: clip-path: polygon(0 0, 0 100%, 100% 50%);
+
+127) mask-image: masks an element with an image.
+Syntax: mask-image: value;
+
+Example: mask-image: url("mask.png");
+
+128) mask-size: specifies the size of the mask image.
+Syntax: mask-size: value;
+
+Example: mask-size: cover;
+
+129) mask-position: specifies the position of the mask image.
+Syntax: mask-position: value;
+
+Example: mask-position: center center;
+
+130) mask-repeat: specifies how the mask image should repeat.
+Syntax: mask-repeat: value;
+
+Example: mask-repeat: no-repeat;
+
+131) mix-blend-mode: specifies how an element should blend with its background.
+Syntax: mix-blend-mode: value;
+
+Example: mix-blend-mode: multiply;
+
+132) will-change: informs the browser of what properties are likely to change.
+Syntax: will-change: value;
+
+Example: will-change: transform;
+
+133) perspective: sets the perspective on a 3D element.
+Syntax: perspective: value;
+
+Example: perspective: 1000px;
+
+134) perspective-origin: specifies the position of the perspective on a 3D element.
+Syntax: perspective-origin: value;
+
+Example: perspective-origin: center center;
+
+135) shape-outside: floats an element around a specified shape.
+Syntax: shape-outside: value;
+
+Example: shape-outside: circle(50%);
+
+136) shape-margin: specifies the margin between an element and its shape.
+Syntax: shape-margin: value;
+
+Example: shape-margin: 10px;
+
+137) shape-image-threshold: sets the alpha channel threshold for an image to be used as a shape.
+Syntax: shape-image-threshold: value;
+
+Example: shape-image-threshold: 0.5;
+
+138) scroll-snap-type: defines the scrolling behavior for snap points.
+Syntax: scroll-snap-type: value;
+
+Example: scroll-snap-type: x mandatory;
+
+139) scroll-snap-align: specifies the snap position of a scroll container.
+Syntax: scroll-snap-align: value;
+
+Example: scroll-snap-align: center;
+
+140) scroll-snap-stop: stops the snap points of a scroll container.
+Syntax: scroll-snap-stop: normal|always;
+
+Example: scroll-snap-stop: always;
+
+141) scroll-behavior: specifies the scrolling behavior for a container.
+Syntax: scroll-behavior: value;
+
+Example: scroll-behavior: smooth;
+
+142) overscroll-behavior: specifies the overscroll behavior for a container.
+Syntax: overscroll-behavior: value;
+
+Example: overscroll-behavior: contain;
+
+143) touch-action: specifies how touch events should be handled.
+Syntax: touch-action: value;
+
+Example: touch-action: pan-y;
+
+144) caret-color: specifies the color of the text input cursor.
+Syntax: caret-color: value;
+
+Example: caret-color: red;
+
+145) user-select: controls the selection behavior of an element.
+Syntax: user-select: value;
+
+Example: user-select: none;
+
+146) pointer-events: specifies whether an element should respond to pointer events.
+Syntax: pointer-events: value;
+
+Example: pointer-events: none;
+
+147) all: resets all CSS properties to their initial values.
+Syntax: all: value;
+
+Example: all: initial;
+
+148) counter-reset: creates or resets a counter.
+Syntax: counter-reset: name value;
+
+Example: counter-reset: my-counter 0;
+
+149) counter-increment: increments a counter.
+Syntax: counter-increment: name value;
+
+Example: counter-increment: my-counter 1;
+
+150) content: inserts generated content.
+Syntax: content: value;
+
+Example: content: "Example";
+
+151) quotes: sets the quotation marks for a document.
+Syntax: quotes: value;
+
+Example: quotes: "«" "»";
+
+ 152) table-layout: sets the layout algorithm for a table.
+Syntax: table-layout: value;
+
+Example: table-layout: fixed;
+
+153) border-collapse: specifies whether or not table borders should be collapsed.
+Syntax: border-collapse: value;
+
+Example: border-collapse: collapse;
+
+154) border-spacing: sets the space between table borders.
+Syntax: border-spacing: value;
+
+Example: border-spacing: 10px
+
+155) empty-cells: specifies how to handle empty cells in a table.
+Syntax: empty-cells: value;
+
+Example: empty-cells: hide;
+
+156) caption-side: specifies the placement of a table caption.
+Syntax: caption-side: value;
+
+Example: caption-side: bottom;
+
+157) vertical-align: sets the vertical alignment of an element.
+Syntax: vertical-align: value;
+
+Example: vertical-align: middle;
+
+158) text-overflow: specifies how overflowed content that is not displayed should be signaled to the user.
+Syntax: text-overflow: value;
+
+Example: text-overflow: ellipsis;
+
+159) white-space: specifies how white-space inside an element is handled.
+Syntax: white-space: value;
+
+Example: white-space: nowrap;
+
+160) word-break: specifies how words should break when reaching the end of a line.
+Syntax: word-break: value;
+
+Example: word-break: break-all;
+
+161) word-wrap: specifies whether or not long words should be broken and wrapped onto the next line.
+Syntax: word-wrap: value;
+
+Example: word-wrap: break-word;
+
+162) line-height: sets the line height for an element.
+Syntax: line-height: value;
+
+Example: line-height: 1.5;
+
+163) letter-spacing: sets the spacing between characters in a text.
+Syntax: letter-spacing: value;
+
+Example: letter-spacing: 1px;
+
+164) text-align: sets the horizontal alignment of a text.
+Syntax: text-align: value;
+
+Example: text-align: center;
+
+165) text-decoration: sets the decoration of a text.
+Syntax: text-decoration: value;
+
+Example: text-decoration: underline;
+
+166) text-shadow: adds a shadow to a text.
+Syntax: text-shadow: value;
+
+Example: text-shadow: 1px 1px black;
+
+167) text-transform: transforms the case of a text.
+Syntax: text-transform: value;
+
+Example: text-transform: uppercase;
+
+168) text-underline-position: sets the position of an underline in a text.
+Syntax: text-underline-position: value;
+
+Example: text-underline-position: under;
+
+169) word-spacing: sets the spacing between words in a text.
+Syntax: word-spacing: value;
+
+Example: word-spacing: 2px;
+
+170) hyphens: controls the hyphenation of words in a text.
+Syntax: hyphens: value;
+
+Example: hyphens: auto;
+
+171) text-justify: specifies how text should be justified.
+Syntax: text-justify: value;
+
+Example: text-justify: inter-word;
+
+172) font: sets all the font properties at once.
+Syntax: font: value;
+
+Example: font: 16px Arial, sans-serif;
+
+173) font-family: sets the font family for an element.
+Syntax: font-family: value;
+
+Example: font-family: Arial, sans-serif;
+
+174) font-size: sets the font size for an element.
+Syntax: font-size: value;
+
+Example: font-size: 16px;
+
+175) font-style: sets the font style for an element.
+Syntax: font-style: value;
+
+Example: font-style: italic;
+
+176) font-weight: sets the font weight for an element.
+Syntax: font-weight: value;
+
+Example: font-weight: bold;
+
+177)  font-variant: sets the font variant for an element.
+Syntax: font-variant: value;
+
+Example: font-variant: small-caps;
+
+178) font-stretch: selects a normal, condensed, or expanded face from a font family.
+Syntax: font-stretch: value;
+
+Example: font-stretch: condensed;
+
+179) font-size-adjust: adjusts the font size based on the height of lowercase letters.
+Syntax: font-size-adjust: value;
+
+Example: font-size-adjust: 0.5;
+
+180) font-display: determines how a custom font is displayed.
+Syntax: font-display: value;
+
+Example: font-display: swap;
+
+181) font-feature-settings: controls advanced typographic features in OpenType fonts.
+Syntax: font-feature-settings: value;
+
+Example: font-feature-settings: "liga" on;
+
+182) font-kerning: sets the kerning between characters in a text.
+Syntax: font-kerning: value;
+
+Example: font-kerning: normal;
+
+183) font-language-override: controls the language of the text in a font.
+Syntax: font-language-override: value;
+
+Example: font-language-override: fr;
+
+184) text-combine-upright: sets the combination of multiple characters in a text.
+Syntax: text-combine-upright: value;
+
+Example: text-combine-upright: all;
+
+185) text-orientation: sets the orientation of a text.
+Syntax: text-orientation: value;
+
+Example: text-orientation: upright;
+
+186) text-rendering: sets the quality of text rendering.
+Syntax: text-rendering: value;
+
+Example: text-rendering: optimizeLegibility;
+
+187) text-size-adjust: adjusts the font size based on the height of capital letters.
+Syntax: text-size-adjust: value;
+
+Example: text-size-adjust: 1.5;
+
+188) word-break: specifies how words should break when reaching the end of a line.
+Syntax: word-break: value;
+
+Example: word-break: break-all;
+
+189) word-wrap: specifies whether or not long words should be broken and wrapped onto the next line.
+Syntax: word-wrap: value;
+
+Example: word-wrap: break-word;
+
+190) writing-mode: sets the direction of the writing mode.
+Syntax: writing-mode: value;
+
+Example: writing-mode: vertical-lr;
+
+191) direction: sets the direction of the text.
+Syntax: direction: value;
+
+Example: direction: rtl;
+
+192) unicode-bidi: sets the level of embedding and override for bidirectional text.
+Syntax: unicode-bidi: value;
+
+Example: unicode-bidi: embed;
+
+193) columns: sets the number of columns in a text.
+Syntax: columns: value;
+
+Example: columns: 3;
+
+194) column-gap: sets the gap between columns in a text.
+Syntax: column-gap: value;
+
+Example: column-gap: 20px;
+
+195) column-rule: sets the rule between columns in a text.
+Syntax: column-rule: value;
+
+Example: column-rule: 2px solid black;
+
+196) page-break-after: sets the page break behavior after an element.
+Syntax: page-break-after: value;
+
+Example: page-break-after: always;
+
+197) page-break -before`: sets the page break behavior before an element.
+
+Syntax: page-break-before: value;
+
+Example: page-break-before: avoid;
+
+198) page-break-inside: sets the page break behavior inside an element.
+Syntax: page-break-inside: value;
+
+Example: page-break-inside: avoid;
+
+199) orphans: sets the minimum number of lines that must be left at the bottom of a page.
+Syntax: orphans: value;
+
+Example: orphans: 3;
+
+200) widows: sets the minimum number of lines that must be left at the top of a page.
+Syntax: widows: value;
+
+Example: widows: 2;
