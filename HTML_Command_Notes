@@ -1,0 +1,705 @@
+<html> #- defines an HTML document
+
+<head> #- defines information about the document
+
+<title> #- defines a title for the document
+
+<meta> #- defines metadata about the document
+
+<body> #- defines the document's body
+
+<h1> #- defines a heading
+
+<h2> #- defines a heading
+
+<h3> #- defines a heading
+
+<h4> #- defines a heading
+
+<h5> #- defines a heading
+
+<h6> #- defines a heading
+
+<p> #- defines a paragraph
+
+<br> #- defines a line break
+
+<hr> #- defines a thematic change in the content
+
+<a> #- defines a hyperlink
+
+<img> #- defines an image
+
+<ul> #- defines an unordered list
+
+<ol> #- defines an ordered list
+
+<li> #- defines a list item
+
+<table> #- defines a table
+
+<tr> #- defines a table row
+
+<th> #- defines a table header cell
+
+<td> #- defines a table data cell
+
+<caption> #- defines a table caption
+
+<thead> #- defines a table header
+
+<tbody> #- defines a table body
+
+<tfoot> #- defines a table footer
+
+<colgroup> #- defines a group of columns in a table
+
+<col> #- defines a column within a colgroup
+
+<div> #- defines a section of a document
+
+<span> #- defines a span of text
+
+<style> #- defines inline styles
+
+<link> #- links to an external resource
+
+<script> #- defines a client-side script
+
+<noscript> #- defines alternate content for users with disabled scripts
+
+<header> #- defines a header for a document or section
+
+<nav> #- defines a navigation bar or menu
+
+<section> #- defines a section of a document
+
+<article> #- defines an independent article or section within a document
+
+<aside> #- defines content aside from the main content
+
+<footer> #- defines a footer for a document or section
+
+<address> #- defines contact information for a document or section
+
+<blockquote> #- defines a long quotation
+
+<cite> #- defines the title of a work
+
+<q> #- defines a short quotation
+
+<abbr> #- defines an abbreviation or acronym
+
+<b> #- defines bold text
+
+<em> #- defines emphasized text
+
+<i> #- defines italic text
+
+<s> #- defines strikethrough text
+
+<strong> #- defines strong text
+
+<u> #- defines underlined text
+
+<small> #- defines small text
+
+<sub> #- defines subscripted text
+
+<sup> #- defines superscripted text
+
+<pre> #- defines preformatted text
+
+<code> #- defines a block of preformatted code
+
+<var> #- defines a variable
+
+<kbd> #- defines keyboard input
+
+<samp> #- defines sample output
+
+<meter> #- represents a scalar measurement within a known range
+
+<progress> #- represents the progress of a task
+
+<time> #- represents a date or time value
+
+<input> #- defines an input field
+
+<textarea> #- defines
+
+<button> #- defines a clickable button
+
+<select> #- defines a drop-down list or menu of options
+
+<option> #- defines an option within a select element
+
+<optgroup> #- groups related options within a select element
+
+<label> #- associates a label with a form control
+
+<fieldset> #- groups related form controls within a border
+
+<legend> #- provides a caption or title for a fieldset element
+
+<form> #- defines a form for user input
+
+<datalist> #- defines a list of pre-defined options for an input field
+
+<output> #- displays the result of a calculation or user input
+
+<iframe> #- defines an inline frame for embedding another document
+
+<audio> #- defines an audio player
+
+<video> #- defines a video player
+
+<source> #- defines the media source for an audio or video element
+
+<track> #- defines text tracks for media elements
+
+<canvas> #- defines a drawing area
+
+<svg> #- defines scalable vector graphics
+
+<math> #- defines mathematical formulas
+
+<map> #- defines an image map
+
+<area> #- defines an area within an image map
+
+<nav> #- defines a navigation section
+
+<aside> #- defines content aside from the main content
+
+<details> #- defines additional details that can be toggled on or off
+
+<summary> #- defines a visible heading for a details element
+
+<dialog> #- defines a dialog box or window
+
+<slot> #- defines a placeholder for content to be inserted by a web component
+
+<template> #- defines a reusable HTML template
+
+<bdi> #- defines text that is isolated from its surrounding text for bidirectional text formatting
+
+<bdo> #- defines the direction of text display for bidirectional text formatting
+
+<menu> #- defines a menu list
+
+<menuitem> #- defines a command/menu item that the user can invoke from a popup menu
+
+<meter> #- represents a scalar measurement within a known range, such as a progress bar
+
+<progress> #- displays the progress of a task, such as a file download
+
+<rp> #- defines what to show in browsers that do not support the ruby element
+
+<rt> #- defines an explanation or pronunciation of characters (for East Asian typography)
+
+<ruby> #- defines a ruby annotation (for East Asian typography)
+
+<section> #- defines a section of a document
+
+<header> #- defines a header for a section or document
+
+<footer> #- defines a footer for a section or document
+
+<main> #- defines the main content of a document
+
+<article> #- defines an article or self-contained piece of content
+
+<aside> #- defines content that is related to the main content but can be considered separate
+
+<time> #- defines a date or time
+
+<cite> #- defines the title of a work
+
+<abbr> #- defines an abbreviation or acronym
+
+<address> #- defines contact information for the author or owner of a document
+
+<blockquote> #- defines a long quotation
+
+<q> #- defines a short quotation
+
+<s> #- displays text that is no longer accurate or relevant
+
+<u> #- displays text with an underline
+
+<small> #- displays text in a smaller font size
+
+<strong> #- displays text in bold
+
+<em> #- displays text in italics
+
+<sup> #- defines superscript text
+
+<sub> #- defines subscript text
+
+<code> #- defines computer code text
+
+<var> #- defines a variable
+
+<kbd> #- defines keyboard input
+
+<samp> #- defines sample output
+
+<pre> #- defines preformatted text
+
+<ins> #- defines inserted text
+
+<del> #- defines deleted text
+
+<hr> #- defines a horizontal rule or line
+
+<wbr> #- defines a possible line break opportunity
+
+<bgsound> #- defines background sound
+
+<base> #- specifies the base URL/target for all relative URLs in a document
+
+<basefont> #- specifies a default font size and color for a document
+
+<dir> #- defines a directory list (deprecated)
+
+<font> #- defines font size, color, and face for text (deprecated)
+
+<frame> #- defines a sub-window (deprecated)
+
+<frameset> #- defines a set of frames (deprecated)
+
+<noframes> #- defines content to display when frames are not supported (deprecated)
+
+<marquee> #- defines a scrolling section of text or images (deprecated)
+
+<center> #- centers content horizontally (deprecated)
+
+<applet> #- defines an embedded Java applet (deprecated)
+
+<isindex> #- defines a single-line input field and prompts for user input (deprecated)
+
+<keygen> #- defines a key pair generator field for forms (obsolete)
+
+<dialog> #- defines a dialog box or window
+
+<embed> #- embeds external content, such as media or plugins
+
+<source> #- specifies multiple media sources for an audio or video element
+
+<track> #- specifies multiple text tracks for media elements
+
+<wbr> #- specifies a possible line break opportunity
+
+<data> #- defines machine-readable data for a user
+
+<time> #- specifies a date or time
+
+<meter> #- defines a scalar measurement within a known range, such as a progress bar
+
+<progress> #- displays the progress of a task, such as a file download
+
+<details> #- defines additional details that can be toggled on or off
+
+<summary> #- defines a visible heading for a details element
+
+<mark> #- highlights
+
+<figure> #- defines a figure with optional caption
+
+<figcaption> #- defines a caption for a <figure> element
+
+<picture> #- provides multiple sources for an image to ensure it looks good on different devices and screens
+
+<dialog> #- defines a dialog box or window
+
+<iframe> #- displays a nested browsing context (deprecated, use <object> instead)
+
+<object> #- embeds external content, such as media or plugins
+
+<param> #- defines parameters for an <object> element
+
+<style> #- defines a section for CSS rules
+
+<script> #- defines a section for JavaScript code
+
+<noscript> #- defines content to display when JavaScript is not supported
+
+<meta> #- provides metadata about a document, such as its author or description
+
+<title> #- defines the title of a document
+
+<link> #- defines a link between a document and an external resource, such as a stylesheet or icon
+
+<head> #- defines a container for metadata and other head elements
+
+<body> #- defines the body content of a document
+
+<html> #- defines the root element of an HTML document
+
+<audio> #- defines sound content, such as music or a spoken track
+
+<video> #- defines video content
+
+<source> #- specifies multiple media sources for an audio or video element
+
+<track> #- specifies multiple text tracks for media elements
+
+<canvas> #- defines a container for graphics
+
+<svg> #- defines a container for scalable vector graphics
+
+<map> #- defines an image map for clickable areas
+
+<area> #- defines a clickable area within an image map
+
+<nav> #- defines navigation links
+
+<menu> #- defines a list of commands or options
+
+<optgroup> #- groups related options in a <select> element
+
+<option> #- defines an option in a <select> element
+
+<datalist> #- provides a list of pre-defined options for an input element
+
+<output> #- defines the result of a calculation
+
+<textarea> #- defines a multi-line input field
+
+<fieldset> #- groups related form elements
+
+<legend> #- defines a caption for a <fieldset> element
+
+<label> #- defines a label for a form element
+
+<form> #- defines a form for user input
+
+<select> #- defines a drop-down list
+
+<button> #- defines a clickable button
+
+<datalist> #- provides a list of pre-defined options for an input element
+
+<optgroup> #- groups related options in a <select> element
+
+<option> #- defines an option in a <select> element
+
+<meter> #- defines a scalar measurement within a known range, such as a progress bar
+
+<progress> #- displays the progress of a task, such as a file download
+
+<details> #- defines additional details that can be toggled on or off
+
+<summary> #- defines a visible heading for a details element
+
+<mark> #- highlights text
+
+<cite> #- defines the title of a work.
+
+<abbr> #- defines an abbreviation
+
+<acronym> #- defines an acronym (deprecated, use <abbr> instead)
+
+<address> #- defines contact information for the author or owner of a document
+
+<bdi> #- isolates a part of text that might be formatted in a different direction from other text outside it
+
+<bdo> #- overrides the current text direction
+
+<blockquote> #- defines a long quotation
+
+<q> #- defines a short quotation
+
+<cite> #- defines the title of a work, such as a book or movie
+
+<code> #- defines a piece of computer code
+
+<dfn> #- defines a definition term
+
+<em> #- defines emphasized text
+
+<i> #- defines italic text
+
+<kbd> #- defines keyboard input
+
+<pre> #- defines preformatted text
+
+<samp> #- defines computer output or sample code
+
+<small> #- defines smaller text
+
+<strong> #- defines strong text
+
+<sub> #- defines subscripted text
+
+<sup> #- defines superscripted text
+
+<time> #- defines a date or time
+
+<var> #- defines a variable
+
+<wbr> #- defines a possible line break
+
+<br> #- defines a single line break
+
+<hr> #- defines a horizontal rule
+
+<div> #- defines a container for HTML elements
+
+<span> #- defines a container for inline elements
+
+<header> #- defines a container for introductory content, such as a logo or navigation links
+
+<footer> #- defines a container for footer content, such as copyright information or social media links
+
+<main> #- defines the main content of a document
+
+<section> #- defines a section of a document, such as a chapter or topic
+
+<article> #- defines an article or piece of content that can stand on its own
+
+<aside> #- defines content that is related to the surrounding content, such as a sidebar or callout box
+
+<details> #- defines additional details that can be toggled on or off
+
+<summary> #- defines a visible heading for a details element
+
+<figcaption> #- defines a caption for a <figure> element
+
+<figure> #- defines a figure with optional caption
+
+<iframe> #- displays a nested browsing context (deprecated, use <object> instead)
+
+<object> #- embeds external content, such as media or plugins
+
+<param> #- defines parameters for an <object> element
+
+<picture> #- provides multiple sources for an image to ensure it looks good on different devices and screens
+
+<source> #- specifies multiple media sources for an audio or video element
+
+<track> #- specifies multiple text tracks for media elements
+
+<audio> #- defines sound content, such as music or a spoken track
+
+<video> #- defines video content
+
+<canvas> #- defines a container for graphics
+
+<svg> #- defines a container for scalable vector graphics
+
+<map> #- defines an image map for clickable areas
+
+<area> #- defines a clickable area within an image map
+
+<nav> #- defines navigation links
+
+<menu> #- defines a list of commands or options
+
+<ol> #- defines an ordered list
+
+<ul> #- defines an unordered list
+
+<li> #- defines a list item
+
+<dl> #- defines a description list
+
+<dt> #- defines a term in a description list
+
+<dd> #- defines a description of a term in a description list
+
+<table> #- defines a table
+
+<caption> #- defines a caption for a table
+
+<th> #- defines a header cell in a table
+
+<tr> #- defines a row in a table
+
+<td> #- defines a cell in a table
+
+<thead> #- defines a group of header rows in a table
+
+<tbody> #- defines a group of standard rows in a table
+
+<tfoot> #- defines a group of footer rows in a table
+
+<col> #- specifies column properties for each column within a <colgroup> element
+
+<colgroup> #- defines a group of columns within a table
+
+<style> #- defines style information for a document
+
+<link> #- defines a link between a document and an external resource, such as a CSS stylesheet
+
+<meta> #- defines metadata about a document, such as keywords and author information
+
+<base> #- specifies the base URL and target for all relative URLs in a document
+
+<head> #- defines information about a document, including the title and metadata
+
+<title> #- defines the title of a document
+
+<body> #- defines the body content of a document
+
+<form> #- defines a form for user input
+
+<input> #- defines an input field for user data
+
+<textarea> #- defines a multiline input field for user data
+
+<select> #- defines a dropdown list of options for user input
+
+<option> #- defines an option within a dropdown list
+
+<optgroup> #- groups related options in a dropdown list
+
+<button> #- defines a clickable button
+
+<label> #- defines a label for an input element
+
+<fieldset> #- groups related form elements together
+
+<legend> #- defines a caption for a <fieldset> element
+
+<datalist> #- defines a list of options for an input field
+
+<output> #- defines the result of a calculation
+
+<progress> #- defines the progress of a task
+
+<meter> #- defines a measurement within a known range
+
+<details> #- defines additional details that can be toggled on or off
+
+<summary> #- defines a visible heading for a details element
+
+<script> #- defines a client-side script
+
+<noscript> #- defines content to be displayed when a client-side script is not supported or enabled
+
+<canvas> #- defines a container for graphics
+
+<svg> #- defines a container for scalable vector graphics
+
+<audio> #- defines sound content, such as music or a spoken track
+
+<video> #- defines video content
+
+<source> #- specifies multiple media sources for an audio or video element
+
+<track> #- specifies multiple text tracks for media elements
+
+<iframe> #- displays a nested browsing context (deprecated, use <object> instead)
+
+<object> #- embeds external content, such as media or plugins
+
+<param> #- defines parameters for an <object> element
+
+<picture> #- provides multiple sources for an image to ensure it looks good on different devices and screens
+
+<map> #- defines an image map for clickable areas
+
+<area> #- defines a clickable area within an image map
+
+<svg> #-used for publishing statistical or cartographic data. These files can be viewed in Web browsers either natively or via plug-ins. 4D includes an SVG rendering engine that allows you to display SVG files in picture field or variables.
+
+<animate> #- defines an animation to be applied to an SVG element
+
+<animateMotion> #- defines motion for an SVG element
+
+<animateTransform> #- defines a transformation to be applied to an SVG element
+
+<circle> #- defines a circle in an SVG graphic
+
+<clipPath> #- defines a clipping path for an SVG element
+
+<defs> #- defines reusable SVG elements
+
+<ellipse> #- defines an ellipse in an SVG graphic
+
+<foreignObject> #- embeds HTML content inside an SVG graphic
+
+<g> #- groups SVG elements together
+
+<image> #- defines an image in an SVG graphic
+
+<line> #- defines a line in an SVG graphic
+
+<linearGradient> #- defines a linear gradient for an SVG element
+
+<mask> #- defines a mask for an SVG element
+
+<path> #- defines a path in an SVG graphic
+
+<pattern> #- defines a pattern for an SVG element
+
+<polygon> #- defines a polygon in an SVG graphic
+
+<polyline> #- defines a polyline in an SVG graphic
+
+<radialGradient> #- defines a radial gradient for an SVG element
+
+<rect> #- defines a rectangle in an SVG graphic
+
+<stop> #- defines a stop for a gradient in an SVG element
+
+<svg> #- defines an SVG graphic
+
+<text> #- defines text in an SVG graphic
+
+<textPath> #- defines a path for text to follow in an SVG graphic
+
+<tspan> #- defines a section of text within a <text> element in an SVG graphic
+
+<view> #- defines a viewport into an SVG graphic
+
+<!DOCTYPE> #- defines the document type
+
+<!--...--> #- defines a comment
+
+<!ENTITY> #- defines an entity for use within the document
+
+<!ATTLIST> #- defines attributes for an element
+
+<!ELEMENT> #- defines the content type for an element
+
+<!NOTATION> #- defines a notation for use within the document
+
+<abbr> #- defines an abbreviation or acronym
+
+<address> #- defines contact information for the author of a document
+
+<b> #- defines bold text
+
+<bdi> #- defines text that should be isolated from its surrounding text for formatting purposes
+
+<bdo> #- overrides the current text direction
+
+<blockquote> #- defines a block quotation
+
+<cite> #- defines a citation
+
+<code> #- defines computer code text
+
+<del> #- defines deleted text
+
+<dfn> #- defines a definition term
+
+<em> #- defines emphasized text
+
+<i> #- defines italic text
+
+<ins> #- defines inserted text
+
+<kbd> #- defines keyboard input
+
+<mark> #- defines marked or highlighted text
+
+<meter> #- defines a measurement within a known range
+
+<pre> #- defines preformatted text
+
+<q> #- defines a short quotation
